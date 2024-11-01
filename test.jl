@@ -1,6 +1,6 @@
 include("myHMC.jl")
 include("statsplots.jl")
-#pippo
+
 c = rand(10,10)
 c = (c+c') ./ 2.
 cov = c + 0.2*maximum(eigvals(c))*I
